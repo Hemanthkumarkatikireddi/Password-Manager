@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  width: 90%;
+}
+.app-logo {
+  height: 50px;
+  margin-top: 20px;
+}
+.passwords-container {
+  margin-top: 20px;
+  background-color: #5763a5;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.web-logo-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.website-logo {
+  height: 330px;
+}
+.password-heading {
+  color: #ffff;
+  font-size: medium;
+}
+.password-box {
+  background-color: #454f84;
+  padding: 30px;
+  width: 50%;
+  border-radius: 10px;
+}
+.mini-logo {
+  background-color: #fff;
+  padding: 15px;
+  height: 45px;
+  width: 45px;
+  margin-right: 1px;
+  border-radius: 5px 0px 0px 5px;
+}
+.text-box {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 0px 40px 40px 0px;
+}
+input {
+  padding: 15px;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+.password-box-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0px;
+}
+.btn {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100px;
+  color: #ffff;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 550;
+}
+/* ----- */
+
+.password-manager-container {
+  margin-top: 20px;
+  background-color: #5763a5;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.span-spot {
+  display: flex;
+}
+.span {
+  margin-left: 10px;
+  padding: 1px 12px;
+  font-size: small;
+  font-weight: 100;
+  border: 1px solid #ffff;
+  border-radius: 60px;
+  background-color: transparent;
+}
+.search-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-box {
+  display: flex;
+  margin: 10px;
+}
+.search-logo {
+  height: 31px;
+  width: 40px;
+  background-color: #ffff;
+  padding: 4px 10px;
+  margin-right: 1px;
+  border-radius: 3px 0px 0px 3px;
+}
+.search-input {
+  padding: 8px;
+  font-family: Roboto;
+  border-radius: 0px 3px 3px 0px;
+}
+.check-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+.check-box-input {
+  width: auto;
+  margin: 0px 4px;
+}
+.check-heading {
+  font-size: 13px;
+  font-weight: 650;
+}
+.websites-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.no-websites-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-img {
+  height: 200px;
+  width: 250px;
+  margin: 15px;
+}
+.no-password {
+  font-weight: 650;
+}

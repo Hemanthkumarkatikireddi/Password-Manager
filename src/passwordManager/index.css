@@ -1,0 +1,111 @@
+.websites-list {
+  width: 35%;
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #c3caea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+#personId {
+  color: #ffff;
+  font-size: 22px;
+  width: 55px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c3caea; */
+  padding: 12px 20px;
+  border-radius: 60px;
+}
+.delete-btn {
+  border: none;
+  background-color: transparent;
+}
+.delete-img {
+  height: 24px;
+  width: 24px;
+}
+.website-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #ffff;
+  font-weight: 600;
+  width: 60%;
+  height: 70px;
+}
+.color1 {
+  background-color: #f59e0b;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 60px;
+}
+.color2 {
+  background-color: #10b981;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 60px;
+}
+.color3 {
+  background-color: #f97316;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 60px;
+}
+.color4 {
+  background-color: #14b8a6;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 60px;
+}
+.color5 {
+  background-color: #b91c1c;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 60px;
+}
+
+.color6 {
+  background-color: #0ea5e9;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 60px;
+}
+.hide {
+  width: 100%;
+  height: auto;
+}
